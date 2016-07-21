@@ -61,20 +61,6 @@
 	<classpathentry kind="lib" path="lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-api-1.7.12.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.7.12.jar"/>
-	<classpathentry kind="lib" path="lib/spring-aop-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-aspects-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-beans-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-context-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-context-support-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-core-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-crypto-utils-1.4.0.jar"/>
-	<classpathentry kind="lib" path="lib/spring-expression-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-jdbc-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-orm-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-test-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-tx-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-web-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-webmvc-4.1.6.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-boot-1.3.3.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-boot-autoconfigure-1.3.3.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-boot-starter-1.3.3.RELEASE.jar"/>
@@ -82,6 +68,15 @@
 	<classpathentry kind="lib" path="lib/spring-boot-starter-test-1.3.3.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-boot-starter-tomcat-1.3.3.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-boot-starter-web-1.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-support-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-expression-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-web-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-webmvc-4.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="lib/spring-webmvc-4.2.5.RELEASE.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/crmcommons"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
