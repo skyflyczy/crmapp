@@ -1,7 +1,7 @@
 buildscript {
     repositories {
         maven {
-            url "http://nexus.cfaoe.com/nexus/content/groups/public/"
+            url "http://repo1.maven.org/maven2/"
         }
     }
     dependencies {
@@ -24,7 +24,7 @@ springBoot {
 
   repositories {
      maven {
-       url "http://nexus.cfaoe.com/nexus/content/groups/public/"
+       url "http://repo1.maven.org/maven2/"
      }
      flatDir name: 'libs', dirs: "$rootProject.rootDir/libs"
   }
