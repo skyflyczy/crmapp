@@ -1,6 +1,9 @@
 package com.np.crm.app;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.context.web.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ImportResource;
 import org.springframework.context.annotation.PropertySource;
@@ -11,9 +14,17 @@ import org.springframework.context.annotation.PropertySource;
  * 2016年7月20日 下午3:32:13
  */
 @SpringBootApplication
-@ComponentScan(basePackages={"com.huajin.guofubank.session", "com.huajin.guofubank.app"})
+@ComponentScan(basePackages={"com.np.crm.app"})
 @PropertySource("classpath:config.properties")
 @ImportResource({"classpath:/spring/spring-cache.xml"})
-public class Application {
+public class Application extends SpringBootServletInitializer{
 
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+		return builder.sources(Application.class);
+	}
+	
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
 }

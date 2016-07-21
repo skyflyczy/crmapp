@@ -13,7 +13,7 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
  * @author zhiya.chai
  * 2016年7月20日 下午3:29:20
  */
-public class LoginIntereceptor extends HandlerInterceptorAdapter{
+public class LoginInterceptor extends HandlerInterceptorAdapter{
 
 	private Logger logger = LoggerFactory.getLogger(getClass());
 	
