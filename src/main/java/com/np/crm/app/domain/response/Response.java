@@ -16,7 +16,7 @@ public class Response {
 	 */
 	private String msg;
 	/**
-	 * 返回数据
+	 * 返回数据，用户查询结果或者页面需要结果的输出
 	 */
 	private Object data;
 	
