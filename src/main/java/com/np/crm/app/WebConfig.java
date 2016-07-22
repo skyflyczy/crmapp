@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-import com.np.crm.app.instrceptor.LoginInterceptor;
+import com.np.crm.app.insterceptor.LoginInterceptor;
 
 
 /**

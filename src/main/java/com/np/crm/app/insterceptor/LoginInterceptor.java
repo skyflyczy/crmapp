@@ -1,4 +1,4 @@
-package com.np.crm.app.instrceptor;
+package com.np.crm.app.insterceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

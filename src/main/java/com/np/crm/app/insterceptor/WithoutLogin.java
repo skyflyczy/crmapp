@@ -1,4 +1,4 @@
-package com.np.crm.app.instrceptor;
+package com.np.crm.app.insterceptor;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

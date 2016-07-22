@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.np.crm.app.domain.request.user.LoginRequest;
-import com.np.crm.app.domain.response.Response;
-import com.np.crm.app.instrceptor.WithoutLogin;
+import com.np.crm.app.insterceptor.WithoutLogin;
 import com.np.crm.common.enums.ErrorCode;
 import com.np.crm.common.exception.ErrorCodeException;
+import com.np.crm.common.response.Response;
 
 /**
  * 用户接口
